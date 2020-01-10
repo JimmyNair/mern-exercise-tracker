@@ -7,7 +7,7 @@ const exerciseSchema = new Schema({
         type: String,
         required: true,
     },
-    discription: {
+    description: {
         type: String,
         required: true,
     },
@@ -25,4 +25,4 @@ const exerciseSchema = new Schema({
 
 const Exercise = mongoose.model('Exercise', exerciseSchema);
 
-module.exports.Exercise;
+module.exports = Exercise;
